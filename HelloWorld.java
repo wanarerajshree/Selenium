@@ -8,7 +8,7 @@ public class HelloWorld {
 		Scanner myobj = new Scanner(System.in);
 		System.out.println("Enter the first word");
 		String str = myobj.nextLine();
-		str = str+" ";
+		str = str+" ";// we can take str+=" "
 		System.out.println("Enter the second word");
 		String str1 = myobj.nextLine();
 		String str3 = str.concat(str1);
